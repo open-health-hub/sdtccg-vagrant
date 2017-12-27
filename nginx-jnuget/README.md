@@ -6,6 +6,8 @@ Nginx & jnuget containers in Vagrant environment based on [DevBandit](https://gi
 
 Run `vagrant up` !
 
+Open [http://192.168.50.100](http://192.168.50.100) or [http://sdtccg.local](http://sdtccg.local)
+
 ### Troubleshooting
 
 The [vagrant-docker-compose](https://github.com/leighmcculloch/vagrant-docker-compose) plugin is required and Vagrant should install this automagically. If not:
