@@ -8,7 +8,7 @@
     <storages>
         <storage class="ru.aristar.jnuget.sources.ClassicPackageSource" indexed="true" canPush="true" canDelete="true" storageName="DefaultSource" public="true" saveIndex="false" refreshInterval="1">
             <properties>
-                <property name="folderName" value="${nuget.home}/Packages"/>
+                <property name="folderName" value="${nuget.home}/Packages/"/>
             </properties>
             <afterTriggers/>
             <beforeTriggers/>
