@@ -1,0 +1,15 @@
+jnuget:
+  image: robdykedotcom/jnuget-docker:latest
+  ports:
+    - "8080:8080"
+  volumes:
+    - /vagrant/jnuget:/var/lib/jnuget/Packages
+
+proxy:
+  build: ./nginx
+  ports:
+    - "80:80"
+  volumes:
+    - /vagrant/nginx/sites-enabled:/etc/nginx/sites-enabled
+  links:
+    - jnuget
